@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.toggle {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    transition: .2s;
+}
+
+.toggle i {
+    width: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.toggle .ball {
+position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    margin-left: 15px;
+    margin-top: 4px;
+    border-radius: 50%;
+    transition: .3s ease-out;
+}
+
+input {
+    display: none;
+}
+
+
+.light {
+    background: #fafafa;
+}
+
+.light .toggle {
+    box-shadow: 1px 1px 10px #e6e6e6, -3px -3px 4px #ffffff;
+}
+
+.light .toggle .bxs-sun {
+    color: #fafafa;
+}
+
+.light .toggle .bx-moon {
+    color: #151d2a;
+}
+
+.light .toggle .ball {
+    background: #ff7a57;
+}
+
+
+
+.dark {
+    background: #151d2a;
+}
+
+.dark .toggle {
+    background: #151d2a;
+    box-shadow: 1px 1px 10px #0e131b,
+                -3px -3px 3px #1c2739;
+}
+
+.dark .toggle .bx-sun {
+    color: #fafafa;
+}
+
+.dark .toggle .bxs-moon {
+    color: #151d2a;
+}
+
+.dark .toggle .ball {
+    background: #fafafa;
+    transform: translateX(60px);
+}
+
+.dark .dark-olanda{
+    background-color: #151d2a;
+}
+
+.dark .reng-ag {
+    color: white !important;
+}
+
+.dark .reng-ag.active{
+    color: #ff7a57 !important;
+}
+
+.dark .subtitle{
+    color: white;
+}
+
+.dark .title{
+    color: white;
+}
+
+.dark .title-2{
+    color: white;
+}
+
+.dark .widget{
+    background-color: #ff7a57;
+}
+
+.dark .text-1-1{
+    color: white !important;
+}
+
+.dark .socials .social-item{
+    border: 2px solid white !important;
+}
+
+.dark .ti-facebook:before {
+    content: "\e741";
+    color: white;
+}
+.dark .ti-google:before {
+    content: "\e73e";
+    color: white;
+}
+.dark .ti-github:before {
+    content: "\e73f";
+    color: white;
+}
+.dark .ti-twitter:before {
+    content: "\e72a";
+    color: white;
+}
+
+.dark .text-2-1{
+    color: white;
+}
+
+.dark .arxa-service{
+    background-color: #182232;
+}
+
+.dark .card{
+    background-color: #151d2a;
+}
+
+.dark .arxa-portfolii{
+    background-color: #151d2a;
+}
+
+.dark .contact{
+    background: #182232;
+}
+
+.dark .form-control{
+    background-color: #151d2a;
+    color: white;
+}
+
+.dark .page-footer{
+    background-color: #182232;
+}
+
+.dark .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+
+.dark .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color:white;
+  }
+
+
+.sekil-box-sh{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.sekil-box-sh:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.dark .reng-degistirr{
+    color: white !important;
+}
